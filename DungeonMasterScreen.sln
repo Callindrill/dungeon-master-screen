@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterScreen", "DungeonMasterScreen\DungeonMasterScreen.csproj", "{FBB1E0D7-3F1C-4403-8408-B6A0B4E5581B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterScreen.Views", "DungeonMasterScreen.Views\DungeonMasterScreen.Views.csproj", "{68BE5B07-95EB-4753-9876-7C909C60A4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterScreen.ViewModels", "DungeonMasterScreen.ViewModels\DungeonMasterScreen.ViewModels.csproj", "{BFCC1E1B-9103-4435-BE2B-EAB1A04BD8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterScreen.Models", "DungeonMasterScreen.Models\DungeonMasterScreen.Models.csproj", "{C1A7AAE6-B59A-472A-88C2-8B60D30D8DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterScreen.Interfaces", "DungeonMasterScreen.Interfaces\DungeonMasterScreen.Interfaces.csproj", "{4693BF0F-F107-4244-97AC-B67D7079D318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterScreen.Models.Tests", "DungeonMasterScreen.Models.Tests\DungeonMasterScreen.Models.Tests.csproj", "{D00D8664-89D7-4A73-A09D-7B0E574AA3ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{FBB1E0D7-3F1C-4403-8408-B6A0B4E5581B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB1E0D7-3F1C-4403-8408-B6A0B4E5581B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB1E0D7-3F1C-4403-8408-B6A0B4E5581B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68BE5B07-95EB-4753-9876-7C909C60A4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BE5B07-95EB-4753-9876-7C909C60A4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BE5B07-95EB-4753-9876-7C909C60A4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68BE5B07-95EB-4753-9876-7C909C60A4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCC1E1B-9103-4435-BE2B-EAB1A04BD8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCC1E1B-9103-4435-BE2B-EAB1A04BD8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCC1E1B-9103-4435-BE2B-EAB1A04BD8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCC1E1B-9103-4435-BE2B-EAB1A04BD8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A7AAE6-B59A-472A-88C2-8B60D30D8DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A7AAE6-B59A-472A-88C2-8B60D30D8DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A7AAE6-B59A-472A-88C2-8B60D30D8DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A7AAE6-B59A-472A-88C2-8B60D30D8DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4693BF0F-F107-4244-97AC-B67D7079D318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4693BF0F-F107-4244-97AC-B67D7079D318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4693BF0F-F107-4244-97AC-B67D7079D318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4693BF0F-F107-4244-97AC-B67D7079D318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00D8664-89D7-4A73-A09D-7B0E574AA3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00D8664-89D7-4A73-A09D-7B0E574AA3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00D8664-89D7-4A73-A09D-7B0E574AA3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00D8664-89D7-4A73-A09D-7B0E574AA3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

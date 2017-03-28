@@ -1,0 +1,25 @@
+﻿<Window x:Class="DungeonMasterScreen.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DungeonMasterScreen.Views"
+        mc:Ignorable="d"
+        Title="Dungeon Master Screen" Height="350" Width="525">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Player Summaries">
+            </TabItem>
+            <TabItem Header="Map">
+            </TabItem>
+            <TabItem Header="Calendar">
+            </TabItem>
+            <TabItem Header="Encounter">
+            </TabItem>
+            <TabItem Header="Roll Tables">
+            </TabItem>
+            <TabItem Header="Rules Reference">
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
