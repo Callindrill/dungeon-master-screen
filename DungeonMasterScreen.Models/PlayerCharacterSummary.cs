@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DungeonMasterScreen.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace DungeonMasterScreen.Models
     {
         string PlayerName { get; set; }
         string CharacterName { get; set; }
-        Abilities AbilityScores { get; set; }
+        IAbilites AbilityScores { get; set; }
+
     }
 }
