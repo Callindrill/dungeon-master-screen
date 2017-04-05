@@ -2,7 +2,7 @@
 
 namespace DungeonMasterScreen.Models
 {
-    public class Abilities : IAbilites
+    public class Abilities : IAbilities
     {
         public IStrength Strength { get; set; }
         public IDexterity Dexterity { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace DungeonMasterScreen.Interfaces
 {
-    public interface IAbilites
+    public interface IAbilities
     {
         IStrength Strength { get; set; }
         IDexterity Dexterity { get; set; }
