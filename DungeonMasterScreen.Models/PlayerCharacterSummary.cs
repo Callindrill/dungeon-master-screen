@@ -12,7 +12,6 @@ namespace DungeonMasterScreen.Models
         string PlayerName { get; set; }
         string CharacterName { get; set; }
         IAbilities AbilityScores { get; set; }
-        string Test { get; set; }
 
     }
 }
