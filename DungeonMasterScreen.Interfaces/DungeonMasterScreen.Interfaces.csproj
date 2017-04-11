@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -41,14 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IConstitution.cs" />
-    <Compile Include="IIntelligence.cs" />
-    <Compile Include="IWisdom.cs" />
-    <Compile Include="ICharisma.cs" />
-    <Compile Include="IDexterity.cs" />
-    <Compile Include="IStrength.cs" />
-    <Compile Include="IAbilites.cs" />
-    <Compile Include="IAbility.cs" />
+    <Compile Include="Models\CharacterSheet\IConstitution.cs" />
+    <Compile Include="Models\CharacterSheet\IIntelligence.cs" />
+    <Compile Include="Models\CharacterSheet\IWisdom.cs" />
+    <Compile Include="Models\CharacterSheet\ICharisma.cs" />
+    <Compile Include="Models\CharacterSheet\IDexterity.cs" />
+    <Compile Include="Models\CharacterSheet\IStrength.cs" />
+    <Compile Include="Models\CharacterSheet\IAbilities.cs" />
+    <Compile Include="Models\CharacterSheet\IAbility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
