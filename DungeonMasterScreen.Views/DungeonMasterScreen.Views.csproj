@@ -73,6 +73,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LabelPosition.cs" />
+    <Compile Include="UserControls\LabelledIntegerUpDown.xaml.cs">
+      <DependentUpon>LabelledIntegerUpDown.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LabelledTextBox.xaml.cs">
+      <DependentUpon>LabelledTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LayoutGroup.cs" />
+    <Compile Include="UserControls\PlayerTracker.xaml.cs">
+      <DependentUpon>PlayerTracker.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -81,6 +92,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControls\LabelledIntegerUpDown.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\LabelledTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\PlayerTracker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -113,8 +136,6 @@
       <Name>DungeonMasterScreen.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UserControls\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
